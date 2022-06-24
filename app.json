@@ -1,0 +1,20 @@
+{
+  "name": "deploy",
+  "description": "deploy",
+  "keywords": [
+    "deploy"
+  ],
+  "env": {
+    "UUID": {
+      "description": "UUID",
+      "value": "",
+      "required": true
+    }
+  },
+  "website": "https://github.com/iiiniuim/xgfgu",
+  "repository": "https://github.com/iiiniuim/xgfgu",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
